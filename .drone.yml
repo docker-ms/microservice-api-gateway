@@ -1,0 +1,9 @@
+pipeline:
+
+  ms-api-gateway:
+    image: docker:17.06.2-ce-git
+    commands:
+      - git clone --recursive git@bitbucket.org:v-cube/microservice-api-gateway.git
+      - source run.sh -n -w leonard
+
+

@@ -1,0 +1,61 @@
+{
+  "name": "microservice-api-gateway",
+  "version": "0.0.1",
+  "description": "This is the 'API Gateway' microservice, its responsibilities will be:",
+  "scripts": {
+    "test": "./node_modules/istanbul/lib/cli.js cover ./node_modules/.bin/_mocha -- --check-leaks --timeout 10000 --sort ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/v-cube/microservice-api-gateway.git"
+  },
+  "dependencies": {
+    "amqplib": "~0.5.1",
+    "bluebird": "~3.4.7",
+    "body-parser": "~1.15.2",
+    "compression": "~1.6.2",
+    "cookie-parser": "~1.4.3",
+    "express": "~4.14.0",
+    "express-graphql": "~0.6.4",
+    "express-jwt": "~5.1.0",
+    "graphql": "~0.10.5",
+    "grpc": "~1.3.9",
+    "jsonwebtoken": "~7.1.9",
+    "microservice-consul-agents": "git+ssh://git@bitbucket.org/v-cube/microservice-module-consul.git",
+    "microservice-errors": "git+ssh://git@bitbucket.org/v-cube/microservice-module-error.git",
+    "microservice-i18n": "git+ssh://git@bitbucket.org/v-cube/microservice-module-i18n.git",
+    "microservice-logger": "git+ssh://git@bitbucket.org/v-cube/microservice-module-log-js.git",
+    "microservice-protos": "git+ssh://git@bitbucket.org/v-cube/microservice-module-proto.git",
+    "microservice-rabbitmq-channels-pool": "git+ssh://git@bitbucket.org/v-cube/microservice-module-rabbitmq-channel-pool-js.git",
+    "microservice-utils": "git+ssh://git@bitbucket.org/v-cube/microservice-module-util-js.git",
+    "mkdirp": "~0.5.1",
+    "moment": "~2.17.1",
+    "multer": "~1.3.0",
+    "object-sizeof": "~1.1.1",
+    "shortid": "~2.2.6",
+    "uuid": "~3.0.1",
+    "walk": "~2.3.9",
+    "ws": "~3.1.0",
+    "zipkin": "~0.7.3",
+    "zipkin-context-cls": "~0.6.1",
+    "zipkin-instrumentation-express": "~0.7.3",
+    "zipkin-instrumentation-grpc": "~0.0.7",
+    "zipkin-transport-http": "~0.7.3"
+  },
+  "devDependencies": {
+    "bluebird": "~3.4.7",
+    "chai": "~4.1.1",
+    "cookie": "~0.3.1",
+    "coveralls": "~2.13.1",
+    "istanbul": "~0.4.5",
+    "jsverify": "~0.8.2",
+    "mocha": "~3.5.0",
+    "mongodb": "~2.2.31",
+    "msgpack": "~1.0.2",
+    "nedb": "~1.8.0",
+    "request": "~2.81.0",
+    "request-promise": "~4.2.1",
+    "ws": "~3.1.0"
+  },
+  "license": "UNLICENSED"
+}

@@ -1,0 +1,27 @@
+[V-CUBE GATE Service] Enterprise User Batch Regist Template,,,
+For company:,,,
+,Company Id: *****HJ_j0hlSb*****,,
+,Company Name: Leonard&#39;s Test Company,,
+Instructions:,,,
+,1. Item with (*) is mandatory.,,
+,2. You should not adjust the items' order.,,
+,"3. After the whole regist process is completed, system will email you with the feedback via the email you provided when you create the company.",,
+,"4. After the whole regist process is completed, system will also send the INITIAL PASSWORD EMAIL/SMS to each individual.",,
+,"5. All feedback(EMAIL/SMS) will be in the language same as this template and also is indicated in the below field <Feedback in:>, change the value WILL NOT cause the feedback be sent in the value you set but be sent in ENGLISH.",,
+,"6. For 'Gender', put female as 'F', male as 'M', and others as 'O'.",,
+,7. Email or mobile phone number must have one.,,
+,"8. Mobile phone number must contain country calling code, e.g.: +65-12345678",,
+Feedback in:,*****English*****,,
+,,,
+"-----Please do not change anything above, or else will cause unexpected failure in the regist process.-----",,,
+,,,
+Name (*),Gender(F/M/O),Email,Mobile Phone No.(e.g.: +65-12345678)
+leonard.shi+0000001,M,leonard.shi+0000001@vcube.co.jp,65-80000001
+leonard.shi+0000002,M,leonard.shi+0000002@vcube.co.jp,65-80000002
+leonard.shi+0000003,M,leonard.shi+0000003@vcube.co.jp,65-80000003
+leonard.shi+0000004,M,leonard.shi+0000004@vcube.co.jp,65-80000004
+leonard.shi+0000005,M,leonard.shi+0000005@vcube.co.jp,65-80000005
+leonard.shi+0000006,M,leonard.shi+0000006@vcube.co.jp,65-80000006
+leonard.shi+0000007,M,leonard.shi+0000007@vcube.co.jp,65-80000007
+leonard.shi+0000008,M,leonard.shi+0000008@vcube.co.jp,65-80000008
+leonard.shi+0000009,M,leonard.shi+0000009@vcube.co.jp,65-80000009
